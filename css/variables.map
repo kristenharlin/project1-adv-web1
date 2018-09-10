@@ -1,0 +1,12 @@
+{
+	"version": 3,
+	"file": "../sass/variables.css",
+	"sources": [
+		"../sass/variables.scss"
+	],
+	"sourcesContent": [
+		"$white: #ffffff;\n$orange: #aa4f30;\n$tan: #eae8d3;\n$olive: #516a4a;\n"
+	],
+	"mappings": "",
+	"names": []
+}

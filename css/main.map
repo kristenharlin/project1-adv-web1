@@ -1,0 +1,14 @@
+{
+	"version": 3,
+	"file": "../sass/main.css",
+	"sources": [
+		"../sass/main.scss",
+		"../sass/variables.scss"
+	],
+	"sourcesContent": [
+		"@import \"variables\";\n\n* {\n  margin: 0;\n  padding: 0;\n  border: 0;\n}\n\nbody {\n  color: $olive;\n}\n",
+		"$white: #ffffff;\n$orange: #aa4f30;\n$tan: #eae8d3;\n$olive: #516a4a;\n"
+	],
+	"mappings": ";AAEA,AAAA,CAAC,CAAC;EACA,MAAM,EAAE,CAAE;EACV,OAAO,EAAE,CAAE;EACX,MAAM,EAAE,CAAE;CACX;;;AAED,AAAA,IAAI,CAAC;EACH,KAAK,ECNC,OAAO;CDOd",
+	"names": []
+}
