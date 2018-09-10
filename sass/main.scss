@@ -1,5 +1,15 @@
 @import "variables";
 
+@font-face {
+  font-family: "LeHigh Regular";
+  src: url('fonts/lehigh-personal-regular.otf');
+}
+
+@font-face {
+  font-family: "LeHigh Bold";
+  src: url('fonts/lehigh-personal-bold.otf');
+}
+
 * {
   margin: 0;
   padding: 0;
@@ -7,5 +17,5 @@
 }
 
 body {
-  color: $olive;
+  font-family: "LeHigh", serif;
 }

@@ -1,13 +1,23 @@
-/* line 3, /Users/kristenharlin/Documents/_GatorFiles/_2018-fall-web2/_project1/project1-adv-web1/sass/main.scss */
+@font-face {
+  font-family: "LeHigh Regular";
+  src: url("fonts/lehigh-personal-regular.otf");
+}
+
+@font-face {
+  font-family: "LeHigh Bold";
+  src: url("fonts/lehigh-personal-bold.otf");
+}
+
+/* line 13, /Users/kristenharlin/Documents/_GatorFiles/_2018-fall-web2/_project1/project1-adv-web1/sass/main.scss */
 * {
   margin: 0;
   padding: 0;
   border: 0;
 }
 
-/* line 9, /Users/kristenharlin/Documents/_GatorFiles/_2018-fall-web2/_project1/project1-adv-web1/sass/main.scss */
+/* line 19, /Users/kristenharlin/Documents/_GatorFiles/_2018-fall-web2/_project1/project1-adv-web1/sass/main.scss */
 body {
-  color: #516a4a;
+  font-family: "LeHigh", serif;
 }
 
 /*# sourceMappingURL=../css/main.map */

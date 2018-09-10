@@ -6,9 +6,9 @@
 		"../sass/variables.scss"
 	],
 	"sourcesContent": [
-		"@import \"variables\";\n\n* {\n  margin: 0;\n  padding: 0;\n  border: 0;\n}\n\nbody {\n  color: $olive;\n}\n",
+		"@import \"variables\";\n\n@font-face {\n  font-family: \"LeHigh Regular\";\n  src: url('fonts/lehigh-personal-regular.otf');\n}\n\n@font-face {\n  font-family: \"LeHigh Bold\";\n  src: url('fonts/lehigh-personal-bold.otf');\n}\n\n* {\n  margin: 0;\n  padding: 0;\n  border: 0;\n}\n\nbody {\n  font-family: \"LeHigh\", serif;\n}\n",
 		"$white: #ffffff;\n$orange: #aa4f30;\n$tan: #eae8d3;\n$olive: #516a4a;\n"
 	],
-	"mappings": ";AAEA,AAAA,CAAC,CAAC;EACA,MAAM,EAAE,CAAE;EACV,OAAO,EAAE,CAAE;EACX,MAAM,EAAE,CAAE;CACX;;;AAED,AAAA,IAAI,CAAC;EACH,KAAK,ECNC,OAAO;CDOd",
+	"mappings": "AAEA,UAAU;EACR,WAAW,EAAE,gBAAiB;EAC9B,GAAG,EAAE,wCAAG;;;AAGV,UAAU;EACR,WAAW,EAAE,aAAc;EAC3B,GAAG,EAAE,qCAAG;;;;AAGV,AAAA,CAAC,CAAC;EACA,MAAM,EAAE,CAAE;EACV,OAAO,EAAE,CAAE;EACX,MAAM,EAAE,CAAE;CACX;;;AAED,AAAA,IAAI,CAAC;EACH,WAAW,EAAE,eAAgB;CAC9B",
 	"names": []
 }
