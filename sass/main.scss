@@ -1,21 +1,49 @@
 @import "variables";
 
 @font-face {
-  font-family: "LeHigh Regular";
-  src: url('fonts/lehigh-personal-regular.otf');
+  font-family: 'LeHigh Regular';
+  src: url('../fonts/lehigh-personal-regular.otf');
 }
 
 @font-face {
-  font-family: "LeHigh Bold";
-  src: url('fonts/lehigh-personal-bold.otf');
+  font-family: 'LeHigh Bold';
+  src: url('../fonts/lehigh-personal-bold.otf');
 }
 
 * {
   margin: 0;
   padding: 0;
   border: 0;
+  font-family: 'LeHigh Regular', serif;
 }
 
-body {
-  font-family: "LeHigh", serif;
+header {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  img{
+    width: 70%;
+    max-width: 300px;
+  }
+}
+
+nav {
+  background-color: $white;
+  ul {
+    list-style-type: none;
+    li {
+      display: inline-block;
+      padding: 10px;
+      a{
+        text-decoration: none;
+        text-transform: uppercase;
+        color: $olive;
+        font-family: 'LeHigh Bold';
+        letter-spacing: .05rem;
+      }
+    }
+  }
 }
