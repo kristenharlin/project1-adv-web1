@@ -23,8 +23,7 @@ header {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  padding-top: 5px;
-  padding-bottom: 5px;
+  padding: $mobile-pad;
 
   img{
     width: 70%;
@@ -72,6 +71,7 @@ p {
   font-size: .95rem;
   letter-spacing: .05rem;
   line-height: 1.3rem;
+  color: $olive;
 }
 
 .hero-image{
@@ -107,4 +107,8 @@ p {
 h3 {
   @extend .green-btn;
   display: inline-flex;
+}
+
+section, footer {
+  padding: $mobile-pad;
 }
