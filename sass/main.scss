@@ -47,3 +47,24 @@ nav {
     }
   }
 }
+
+h1, h2 {
+  font-family: 'LeHigh Regular';
+  letter-spacing: .1rem;
+  color: $white;
+}
+
+h1{
+  font-size: 2.1rem;
+  text-transform: uppercase;
+}
+
+h2 {
+  font-size: 1.5rem;
+}
+
+p {
+  font-size: .95rem;
+  letter-spacing: .05rem;
+  line-height: 1.3rem;
+}

@@ -57,4 +57,29 @@ nav ul li a {
   letter-spacing: .05rem;
 }
 
+/* line 51, /Users/kristenharlin/Documents/_GatorFiles/_2018-fall-web2/_project1/project1-adv-web1/sass/main.scss */
+h1, h2 {
+  font-family: 'LeHigh Regular';
+  letter-spacing: .1rem;
+  color: #ffffff;
+}
+
+/* line 57, /Users/kristenharlin/Documents/_GatorFiles/_2018-fall-web2/_project1/project1-adv-web1/sass/main.scss */
+h1 {
+  font-size: 2.1rem;
+  text-transform: uppercase;
+}
+
+/* line 62, /Users/kristenharlin/Documents/_GatorFiles/_2018-fall-web2/_project1/project1-adv-web1/sass/main.scss */
+h2 {
+  font-size: 1.5rem;
+}
+
+/* line 66, /Users/kristenharlin/Documents/_GatorFiles/_2018-fall-web2/_project1/project1-adv-web1/sass/main.scss */
+p {
+  font-size: .95rem;
+  letter-spacing: .05rem;
+  line-height: 1.3rem;
+}
+
 /*# sourceMappingURL=../css/main.map */
