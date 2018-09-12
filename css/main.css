@@ -102,9 +102,10 @@ p {
 .hero-image .green-btn, .hero-image h3 {
   width: 100px;
   text-align: center;
+  margin-top: 10px;
 }
 
-/* line 95, /Users/kristenharlin/Documents/_GatorFiles/_2018-fall-web2/_project1/project1-adv-web1/sass/main.scss */
+/* line 96, /Users/kristenharlin/Documents/_GatorFiles/_2018-fall-web2/_project1/project1-adv-web1/sass/main.scss */
 .green-btn, h3 {
   background-color: #516a4a;
   font-family: 'Barlow Condensed', sans-serif;
@@ -113,17 +114,35 @@ p {
   padding: 10px;
 }
 
-/* line 102, /Users/kristenharlin/Documents/_GatorFiles/_2018-fall-web2/_project1/project1-adv-web1/sass/main.scss */
+/* line 103, /Users/kristenharlin/Documents/_GatorFiles/_2018-fall-web2/_project1/project1-adv-web1/sass/main.scss */
 .green-btn:hover, h3:hover {
   background-color: #aa4f30;
 }
 
-/* line 107, /Users/kristenharlin/Documents/_GatorFiles/_2018-fall-web2/_project1/project1-adv-web1/sass/main.scss */
+/* line 108, /Users/kristenharlin/Documents/_GatorFiles/_2018-fall-web2/_project1/project1-adv-web1/sass/main.scss */
 h3 {
   display: inline-flex;
 }
 
-/* line 112, /Users/kristenharlin/Documents/_GatorFiles/_2018-fall-web2/_project1/project1-adv-web1/sass/main.scss */
+/* line 113, /Users/kristenharlin/Documents/_GatorFiles/_2018-fall-web2/_project1/project1-adv-web1/sass/main.scss */
+.about {
+  display: flex;
+  flex-direction: column;
+}
+
+/* line 117, /Users/kristenharlin/Documents/_GatorFiles/_2018-fall-web2/_project1/project1-adv-web1/sass/main.scss */
+.about .hours {
+  background-color: #aa4f30;
+  padding: 15px;
+  margin: 15px 0px 15px 0px;
+}
+
+/* line 122, /Users/kristenharlin/Documents/_GatorFiles/_2018-fall-web2/_project1/project1-adv-web1/sass/main.scss */
+.about .hours p {
+  color: #ffffff;
+}
+
+/* line 128, /Users/kristenharlin/Documents/_GatorFiles/_2018-fall-web2/_project1/project1-adv-web1/sass/main.scss */
 section, footer {
   padding: 15px 5% 15px 5%;
 }
