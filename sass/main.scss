@@ -1,4 +1,5 @@
 @import "variables";
+@import url('https://fonts.googleapis.com/css?family=Barlow+Condensed');
 
 @font-face {
   font-family: 'LeHigh Regular';
@@ -24,6 +25,7 @@ header {
   align-items: center;
   padding-top: 5px;
   padding-bottom: 5px;
+
   img{
     width: 70%;
     max-width: 300px;
@@ -32,11 +34,14 @@ header {
 
 nav {
   background-color: $white;
+
   ul {
     list-style-type: none;
+
     li {
       display: inline-block;
       padding: 10px;
+
       a{
         text-decoration: none;
         text-transform: uppercase;
@@ -55,7 +60,7 @@ h1, h2 {
 }
 
 h1{
-  font-size: 2.1rem;
+  font-size: 2.2rem;
   text-transform: uppercase;
 }
 
@@ -67,4 +72,39 @@ p {
   font-size: .95rem;
   letter-spacing: .05rem;
   line-height: 1.3rem;
+}
+
+.hero-image{
+  background-image: url('../img/tacoheader-bg.jpg');
+  min-height: 300px;
+  max-width: 1200px;
+  margin: auto;
+  background-position: center;
+  background-repeat: no-repeat;
+  padding: $mobile-pad;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  .green-btn {
+    width: 100px;
+    text-align: center;
+  }
+}
+
+.green-btn {
+  background-color: $olive;
+  font-family: 'Barlow Condensed', sans-serif;
+  color: $white;
+  text-transform: uppercase;
+  padding: 10px;
+
+  &:hover {
+    background-color: $orange;
+  }
+}
+
+h3 {
+  @extend .green-btn;
+  display: inline-flex;
 }

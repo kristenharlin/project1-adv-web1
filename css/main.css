@@ -1,3 +1,4 @@
+@import url("https://fonts.googleapis.com/css?family=Barlow+Condensed");
 @font-face {
   font-family: 'LeHigh Regular';
   src: url("../fonts/lehigh-personal-regular.otf");
@@ -8,7 +9,7 @@
   src: url("../fonts/lehigh-personal-bold.otf");
 }
 
-/* line 13, /Users/kristenharlin/Documents/_GatorFiles/_2018-fall-web2/_project1/project1-adv-web1/sass/main.scss */
+/* line 14, /Users/kristenharlin/Documents/_GatorFiles/_2018-fall-web2/_project1/project1-adv-web1/sass/main.scss */
 * {
   margin: 0;
   padding: 0;
@@ -16,7 +17,7 @@
   font-family: 'LeHigh Regular', serif;
 }
 
-/* line 20, /Users/kristenharlin/Documents/_GatorFiles/_2018-fall-web2/_project1/project1-adv-web1/sass/main.scss */
+/* line 21, /Users/kristenharlin/Documents/_GatorFiles/_2018-fall-web2/_project1/project1-adv-web1/sass/main.scss */
 header {
   display: flex;
   flex-direction: column;
@@ -26,29 +27,29 @@ header {
   padding-bottom: 5px;
 }
 
-/* line 27, /Users/kristenharlin/Documents/_GatorFiles/_2018-fall-web2/_project1/project1-adv-web1/sass/main.scss */
+/* line 29, /Users/kristenharlin/Documents/_GatorFiles/_2018-fall-web2/_project1/project1-adv-web1/sass/main.scss */
 header img {
   width: 70%;
   max-width: 300px;
 }
 
-/* line 33, /Users/kristenharlin/Documents/_GatorFiles/_2018-fall-web2/_project1/project1-adv-web1/sass/main.scss */
+/* line 35, /Users/kristenharlin/Documents/_GatorFiles/_2018-fall-web2/_project1/project1-adv-web1/sass/main.scss */
 nav {
   background-color: #ffffff;
 }
 
-/* line 35, /Users/kristenharlin/Documents/_GatorFiles/_2018-fall-web2/_project1/project1-adv-web1/sass/main.scss */
+/* line 38, /Users/kristenharlin/Documents/_GatorFiles/_2018-fall-web2/_project1/project1-adv-web1/sass/main.scss */
 nav ul {
   list-style-type: none;
 }
 
-/* line 37, /Users/kristenharlin/Documents/_GatorFiles/_2018-fall-web2/_project1/project1-adv-web1/sass/main.scss */
+/* line 41, /Users/kristenharlin/Documents/_GatorFiles/_2018-fall-web2/_project1/project1-adv-web1/sass/main.scss */
 nav ul li {
   display: inline-block;
   padding: 10px;
 }
 
-/* line 40, /Users/kristenharlin/Documents/_GatorFiles/_2018-fall-web2/_project1/project1-adv-web1/sass/main.scss */
+/* line 45, /Users/kristenharlin/Documents/_GatorFiles/_2018-fall-web2/_project1/project1-adv-web1/sass/main.scss */
 nav ul li a {
   text-decoration: none;
   text-transform: uppercase;
@@ -57,29 +58,69 @@ nav ul li a {
   letter-spacing: .05rem;
 }
 
-/* line 51, /Users/kristenharlin/Documents/_GatorFiles/_2018-fall-web2/_project1/project1-adv-web1/sass/main.scss */
+/* line 56, /Users/kristenharlin/Documents/_GatorFiles/_2018-fall-web2/_project1/project1-adv-web1/sass/main.scss */
 h1, h2 {
   font-family: 'LeHigh Regular';
   letter-spacing: .1rem;
   color: #ffffff;
 }
 
-/* line 57, /Users/kristenharlin/Documents/_GatorFiles/_2018-fall-web2/_project1/project1-adv-web1/sass/main.scss */
+/* line 62, /Users/kristenharlin/Documents/_GatorFiles/_2018-fall-web2/_project1/project1-adv-web1/sass/main.scss */
 h1 {
-  font-size: 2.1rem;
+  font-size: 2.2rem;
   text-transform: uppercase;
 }
 
-/* line 62, /Users/kristenharlin/Documents/_GatorFiles/_2018-fall-web2/_project1/project1-adv-web1/sass/main.scss */
+/* line 67, /Users/kristenharlin/Documents/_GatorFiles/_2018-fall-web2/_project1/project1-adv-web1/sass/main.scss */
 h2 {
   font-size: 1.5rem;
 }
 
-/* line 66, /Users/kristenharlin/Documents/_GatorFiles/_2018-fall-web2/_project1/project1-adv-web1/sass/main.scss */
+/* line 71, /Users/kristenharlin/Documents/_GatorFiles/_2018-fall-web2/_project1/project1-adv-web1/sass/main.scss */
 p {
   font-size: .95rem;
   letter-spacing: .05rem;
   line-height: 1.3rem;
+}
+
+/* line 77, /Users/kristenharlin/Documents/_GatorFiles/_2018-fall-web2/_project1/project1-adv-web1/sass/main.scss */
+.hero-image {
+  background-image: url("../img/tacoheader-bg.jpg");
+  min-height: 300px;
+  max-width: 1200px;
+  margin: auto;
+  background-position: center;
+  background-repeat: no-repeat;
+  padding: 15px 5% 15px 5%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+/* line 89, /Users/kristenharlin/Documents/_GatorFiles/_2018-fall-web2/_project1/project1-adv-web1/sass/main.scss */
+.hero-image .green-btn, .hero-image h3 {
+  width: 100px;
+  text-align: center;
+}
+
+/* line 95, /Users/kristenharlin/Documents/_GatorFiles/_2018-fall-web2/_project1/project1-adv-web1/sass/main.scss */
+.green-btn, h3 {
+  background-color: #516a4a;
+  font-family: 'Barlow Condensed', sans-serif;
+  color: #ffffff;
+  text-transform: uppercase;
+  padding: 10px;
+}
+
+/* line 102, /Users/kristenharlin/Documents/_GatorFiles/_2018-fall-web2/_project1/project1-adv-web1/sass/main.scss */
+.green-btn:hover, h3:hover {
+  background-color: #aa4f30;
+}
+
+/* line 107, /Users/kristenharlin/Documents/_GatorFiles/_2018-fall-web2/_project1/project1-adv-web1/sass/main.scss */
+h3 {
+  display: inline-flex;
 }
 
 /*# sourceMappingURL=../css/main.map */

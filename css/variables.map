@@ -5,7 +5,7 @@
 		"../sass/variables.scss"
 	],
 	"sourcesContent": [
-		"$white: #ffffff;\n$orange: #aa4f30;\n$tan: #eae8d3;\n$olive: #516a4a;\n"
+		"$white: #ffffff;\n$orange: #aa4f30;\n$tan: #eae8d3;\n$olive: #516a4a;\n\n$mobile-pad: 15px 5% 15px 5%;\n"
 	],
 	"mappings": "",
 	"names": []
