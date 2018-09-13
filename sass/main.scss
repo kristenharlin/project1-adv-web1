@@ -59,6 +59,7 @@ h1, h2 {
 h1{
   font-size: 2.2rem;
   text-transform: uppercase;
+  max-width: 500px;
 }
 
 h2 {
@@ -82,10 +83,31 @@ p {
   padding: $mobile-pad;
   @include flex-center;
 
+  @media (min-width: 550px) {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: flex-start;
+    height: 545px;
+    padding-bottom: 60px;
+  }
+
   .green-btn {
     width: 100px;
     text-align: center;
     margin-top: 10px;
+    @include flex-center;
+  }
+}
+
+.headline-container {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+
+  @media (min-width: 770px) {
+    flex-direction: row;
+    justify-content: space-between;
   }
 }
 
@@ -111,11 +133,19 @@ h3 {
 .about {
   display: flex;
   flex-direction: column;
+  max-width: 1200px;
+
+  @media (min-width: 770px) {
+    flex-direction: row;
+    justify-content: space-between;
+  }
 
   p{
     @media (min-width: 770px) {
       width: 60%;
-      float: left;
+      font-size: 1.4rem;
+      line-height: 1.9rem;
+      padding-top: 15px;
     }
   }
 
@@ -142,7 +172,7 @@ h3 {
 
 .callOutBlock {
   width: 100%;
-  max-width: 390px;
+  max-width: 350px;
   height: 330px;
   display: flex;
   align-items: center;
@@ -158,6 +188,12 @@ h3 {
   display: flex;
   justify-content: center;
   flex-wrap: wrap;
+  max-width: 1200px;
+
+  @media (min-width: 770px) {
+    padding-top: 60px;
+    padding-bottom: 60px;
+  }
 
 
   .food {
@@ -181,6 +217,12 @@ h3 {
   padding-top: 25px;
   padding-bottom: 50px;
   @include flex-center;
+
+  @media (min-width: 770px){
+    padding-top: 80px;
+    padding-bottom: 90px;
+    text-align: center;
+  }
 
   p{
     color: $white;
