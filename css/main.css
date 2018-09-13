@@ -172,35 +172,47 @@ h3 {
 /* line 143, /Users/kristenharlin/Documents/_GatorFiles/_2018-fall-web2/_project1/project1-adv-web1/sass/main.scss */
 .callOutBlock {
   width: 100%;
-  max-width: 395px;
+  max-width: 390px;
   height: 330px;
   display: flex;
   align-items: center;
+  margin: 12px;
 }
 
-/* line 151, /Users/kristenharlin/Documents/_GatorFiles/_2018-fall-web2/_project1/project1-adv-web1/sass/main.scss */
+@media (min-width: 750px) {
+  /* line 143, /Users/kristenharlin/Documents/_GatorFiles/_2018-fall-web2/_project1/project1-adv-web1/sass/main.scss */
+  .callOutBlock {
+    width: 33%;
+    flex-wrap: nowrap;
+  }
+}
+
+/* line 157, /Users/kristenharlin/Documents/_GatorFiles/_2018-fall-web2/_project1/project1-adv-web1/sass/main.scss */
 .decisions {
   display: flex;
   justify-content: center;
   flex-wrap: wrap;
 }
 
-/* line 156, /Users/kristenharlin/Documents/_GatorFiles/_2018-fall-web2/_project1/project1-adv-web1/sass/main.scss */
+/* line 163, /Users/kristenharlin/Documents/_GatorFiles/_2018-fall-web2/_project1/project1-adv-web1/sass/main.scss */
 .decisions .food {
   background-image: url(../img/food-bg.jpg);
+  background-repeat: no-repeat;
 }
 
-/* line 160, /Users/kristenharlin/Documents/_GatorFiles/_2018-fall-web2/_project1/project1-adv-web1/sass/main.scss */
+/* line 168, /Users/kristenharlin/Documents/_GatorFiles/_2018-fall-web2/_project1/project1-adv-web1/sass/main.scss */
 .decisions .dessert {
   background-image: url(../img/flan-bg.jpg);
+  background-repeat: no-repeat;
 }
 
-/* line 164, /Users/kristenharlin/Documents/_GatorFiles/_2018-fall-web2/_project1/project1-adv-web1/sass/main.scss */
+/* line 173, /Users/kristenharlin/Documents/_GatorFiles/_2018-fall-web2/_project1/project1-adv-web1/sass/main.scss */
 .decisions .drink {
   background-image: url(../img/beer-bg.jpg);
+  background-repeat: no-repeat;
 }
 
-/* line 169, /Users/kristenharlin/Documents/_GatorFiles/_2018-fall-web2/_project1/project1-adv-web1/sass/main.scss */
+/* line 179, /Users/kristenharlin/Documents/_GatorFiles/_2018-fall-web2/_project1/project1-adv-web1/sass/main.scss */
 .pull-quote {
   background-color: #aa4f30;
   padding-top: 25px;
@@ -211,7 +223,7 @@ h3 {
   align-items: center;
 }
 
-/* line 175, /Users/kristenharlin/Documents/_GatorFiles/_2018-fall-web2/_project1/project1-adv-web1/sass/main.scss */
+/* line 185, /Users/kristenharlin/Documents/_GatorFiles/_2018-fall-web2/_project1/project1-adv-web1/sass/main.scss */
 .pull-quote p {
   color: #ffffff;
   font-size: 1.8rem;
@@ -220,7 +232,7 @@ h3 {
   max-width: 500px;
 }
 
-/* line 184, /Users/kristenharlin/Documents/_GatorFiles/_2018-fall-web2/_project1/project1-adv-web1/sass/main.scss */
+/* line 194, /Users/kristenharlin/Documents/_GatorFiles/_2018-fall-web2/_project1/project1-adv-web1/sass/main.scss */
 .wht-btn {
   font-family: 'Barlow Condensed', sans-serif;
   color: #ffffff;
@@ -229,37 +241,37 @@ h3 {
   border: 1px #ffffff solid;
 }
 
-/* line 191, /Users/kristenharlin/Documents/_GatorFiles/_2018-fall-web2/_project1/project1-adv-web1/sass/main.scss */
+/* line 201, /Users/kristenharlin/Documents/_GatorFiles/_2018-fall-web2/_project1/project1-adv-web1/sass/main.scss */
 .wht-btn:hover {
   background-color: #ffffff;
   color: #aa4f30;
 }
 
-/* line 197, /Users/kristenharlin/Documents/_GatorFiles/_2018-fall-web2/_project1/project1-adv-web1/sass/main.scss */
+/* line 207, /Users/kristenharlin/Documents/_GatorFiles/_2018-fall-web2/_project1/project1-adv-web1/sass/main.scss */
 footer {
   background-color: #eae8d3;
 }
 
 @media (min-width: 390px) {
-  /* line 197, /Users/kristenharlin/Documents/_GatorFiles/_2018-fall-web2/_project1/project1-adv-web1/sass/main.scss */
+  /* line 207, /Users/kristenharlin/Documents/_GatorFiles/_2018-fall-web2/_project1/project1-adv-web1/sass/main.scss */
   footer {
     display: flex;
     justify-content: space-between;
   }
 }
 
-/* line 205, /Users/kristenharlin/Documents/_GatorFiles/_2018-fall-web2/_project1/project1-adv-web1/sass/main.scss */
+/* line 215, /Users/kristenharlin/Documents/_GatorFiles/_2018-fall-web2/_project1/project1-adv-web1/sass/main.scss */
 footer p {
   margin-bottom: 5px;
 }
 
-/* line 209, /Users/kristenharlin/Documents/_GatorFiles/_2018-fall-web2/_project1/project1-adv-web1/sass/main.scss */
+/* line 219, /Users/kristenharlin/Documents/_GatorFiles/_2018-fall-web2/_project1/project1-adv-web1/sass/main.scss */
 footer .social img {
   max-width: 40px;
   padding: 5px;
 }
 
-/* line 216, /Users/kristenharlin/Documents/_GatorFiles/_2018-fall-web2/_project1/project1-adv-web1/sass/main.scss */
+/* line 226, /Users/kristenharlin/Documents/_GatorFiles/_2018-fall-web2/_project1/project1-adv-web1/sass/main.scss */
 section, footer {
   padding: 15px 5% 15px 5%;
 }

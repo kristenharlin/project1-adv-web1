@@ -142,10 +142,16 @@ h3 {
 
 .callOutBlock {
   width: 100%;
-  max-width: 395px;
+  max-width: 390px;
   height: 330px;
   display: flex;
   align-items: center;
+  margin: 12px;
+
+  @media (min-width: 750px) {
+    width: 33%;
+    flex-wrap: nowrap;
+  }
 }
 
 .decisions {
@@ -153,16 +159,20 @@ h3 {
   justify-content: center;
   flex-wrap: wrap;
 
+
   .food {
     background-image: url(../img/food-bg.jpg);
+    background-repeat: no-repeat;
   }
 
   .dessert {
     background-image: url(../img/flan-bg.jpg);
+    background-repeat: no-repeat;
   }
 
   .drink {
     background-image: url(../img/beer-bg.jpg);
+    background-repeat: no-repeat;
   }
 }
 
