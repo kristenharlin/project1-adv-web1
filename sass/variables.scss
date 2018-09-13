@@ -4,3 +4,17 @@ $tan: #eae8d3;
 $olive: #516a4a;
 
 $mobile-pad: 15px 5% 15px 5%;
+
+@mixin flex-left {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+@mixin flex-center {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}

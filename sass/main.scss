@@ -20,10 +20,7 @@
 }
 
 header {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
+  @include flex-center;
   padding: $mobile-pad;
 
   img{
@@ -83,10 +80,8 @@ p {
   background-position: center;
   background-repeat: no-repeat;
   padding: $mobile-pad;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
+  @include flex-center;
+
   .green-btn {
     width: 100px;
     text-align: center;
@@ -117,19 +112,36 @@ h3 {
   display: flex;
   flex-direction: column;
 
-  .hours {
+  p{
+    @media (min-width: 770px) {
+      width: 60%;
+      float: left;
+    }
+  }
+
+  #hours {
     background-color: $orange;
     padding: 15px;
     margin: 15px 0px 15px 0px;
     max-width: 425px;
 
+    @media (min-width: 770px) {
+      width: 30%;
+      float: right;
+    }
+
     p {
       color: $white;
+      @media (min-width: 770px) {
+        width: 100%;
+      }
+
     }
   }
 }
 
 .callOutBlock {
+  width: 100%;
   max-width: 395px;
   height: 330px;
   display: flex;
@@ -138,7 +150,8 @@ h3 {
 
 .decisions {
   display: flex;
-  flex-direction: column;
+  justify-content: center;
+  flex-wrap: wrap;
 
   .food {
     background-image: url(../img/food-bg.jpg);
@@ -157,12 +170,14 @@ h3 {
   background-color: $orange;
   padding-top: 25px;
   padding-bottom: 50px;
+  @include flex-center;
 
   p{
     color: $white;
     font-size: 1.8rem;
     line-height: 2.1rem;
     margin-bottom: 20px;
+    max-width: 500px;
   }
 }
 
@@ -181,6 +196,11 @@ h3 {
 
 footer {
   background-color: $tan;
+
+  @media (min-width: 390px) {
+    display: flex;
+    justify-content: space-between;
+  }
 
   p{
     margin-bottom: 5px;
