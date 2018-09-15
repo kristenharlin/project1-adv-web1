@@ -5,6 +5,18 @@ $olive: #516a4a;
 
 $mobile-pad: 15px 5% 15px 5%;
 
+@import url('https://fonts.googleapis.com/css?family=Barlow+Condensed');
+
+@font-face {
+  font-family: 'LeHigh Regular';
+  src: url('../fonts/lehigh-personal-regular.otf');
+}
+
+@font-face {
+  font-family: 'LeHigh Bold';
+  src: url('../fonts/lehigh-personal-bold.otf');
+}
+
 @mixin flex-left {
   display: flex;
   flex-direction: column;

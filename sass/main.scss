@@ -1,15 +1,4 @@
 @import "variables";
-@import url('https://fonts.googleapis.com/css?family=Barlow+Condensed');
-
-@font-face {
-  font-family: 'LeHigh Regular';
-  src: url('../fonts/lehigh-personal-regular.otf');
-}
-
-@font-face {
-  font-family: 'LeHigh Bold';
-  src: url('../fonts/lehigh-personal-bold.otf');
-}
 
 * {
   margin: 0;
@@ -257,6 +246,7 @@ h3 {
   text-transform: uppercase;
   padding: 10px;
   border: 1px $white solid;
+  @include transition;
 
   &:hover {
     background-color: $white;

@@ -1,2 +1,12 @@
+@import url("https://fonts.googleapis.com/css?family=Barlow+Condensed");
+@font-face {
+  font-family: 'LeHigh Regular';
+  src: url("../fonts/lehigh-personal-regular.otf");
+}
+
+@font-face {
+  font-family: 'LeHigh Bold';
+  src: url("../fonts/lehigh-personal-bold.otf");
+}
 
 /*# sourceMappingURL=../css/variables.map */
