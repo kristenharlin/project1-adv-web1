@@ -14,7 +14,7 @@
   margin: 0;
   padding: 0;
   border: 0;
-  font-family: 'LeHigh Regular', serif;
+  font-family: "LeHigh Regular", serif;
   letter-spacing: .05rem;
 }
 
@@ -71,7 +71,7 @@ nav ul li a {
   text-decoration: none;
   text-transform: uppercase;
   color: #516a4a;
-  font-family: 'LeHigh Bold';
+  font-family: "LeHigh Bold", serif;
   letter-spacing: .05rem;
 }
 
@@ -86,7 +86,7 @@ nav ul li a:hover {
 
 /* line 58, /Users/kristenharlin/Documents/_GatorFiles/_2018-fall-web2/_project1/project1-adv-web1/sass/main.scss */
 h1, h2 {
-  font-family: 'LeHigh Regular';
+  font-family: "LeHigh Regular", serif;
   letter-spacing: .1rem;
   color: #ffffff;
 }
@@ -171,7 +171,7 @@ p {
 /* line 120, /Users/kristenharlin/Documents/_GatorFiles/_2018-fall-web2/_project1/project1-adv-web1/sass/main.scss */
 .green-btn, h3 {
   background-color: #516a4a;
-  font-family: 'Barlow Condensed', sans-serif;
+  font-family: "Barlow Condensed", sans-serif;
   color: #ffffff;
   text-transform: uppercase;
   padding: 10px;
@@ -329,7 +329,7 @@ h3 {
 
 /* line 243, /Users/kristenharlin/Documents/_GatorFiles/_2018-fall-web2/_project1/project1-adv-web1/sass/main.scss */
 .wht-btn {
-  font-family: 'Barlow Condensed', sans-serif;
+  font-family: "Barlow Condensed", sans-serif;
   color: #ffffff;
   text-transform: uppercase;
   padding: 10px;
@@ -383,7 +383,7 @@ section, footer {
   right: 0;
   line-height: 45px;
   padding: 5px 15px 0px 15px;
-  color: #999;
+  color: #516a4a;
   border: 0;
   font-size: 1.4em;
   font-weight: bold;
@@ -399,7 +399,7 @@ section, footer {
   top: 0px;
   right: 0;
   padding: 7px 15px 0px 15px;
-  color: #999;
+  color: #516a4a;
   border: 0;
   font-size: 3em;
   line-height: 65px;
@@ -415,7 +415,7 @@ section, footer {
   font-weight: bold;
   font-size: 0.8em;
   width: 100%;
-  background: #f1f1f1;
+  background: #eae8d3;
   position: relative;
   text-align: center;
   font-size: 12px;
@@ -433,44 +433,39 @@ section, footer {
 .menu li {
   display: block;
   padding: 15px 0 15px 0;
-  border-bottom: #dddddd 1px solid;
+  border-bottom: #ffffff 1px solid;
 }
 
 /* line 333, /Users/kristenharlin/Documents/_GatorFiles/_2018-fall-web2/_project1/project1-adv-web1/sass/main.scss */
 .menu li:hover {
-  display: block;
   background: #ffffff;
-  padding: 15px 0 15px 0;
-  border-bottom: #dddddd 1px solid;
 }
 
-/* line 340, /Users/kristenharlin/Documents/_GatorFiles/_2018-fall-web2/_project1/project1-adv-web1/sass/main.scss */
+/* line 337, /Users/kristenharlin/Documents/_GatorFiles/_2018-fall-web2/_project1/project1-adv-web1/sass/main.scss */
 .menu ul li a {
   text-decoration: none;
   margin: 0px;
-  color: #666;
+  color: #aa4f30;
 }
 
-/* line 344, /Users/kristenharlin/Documents/_GatorFiles/_2018-fall-web2/_project1/project1-adv-web1/sass/main.scss */
+/* line 341, /Users/kristenharlin/Documents/_GatorFiles/_2018-fall-web2/_project1/project1-adv-web1/sass/main.scss */
 .menu ul li a:hover {
-  color: #666;
+  color: #aa4f30;
   text-decoration: none;
 }
 
-/* line 349, /Users/kristenharlin/Documents/_GatorFiles/_2018-fall-web2/_project1/project1-adv-web1/sass/main.scss */
+/* line 346, /Users/kristenharlin/Documents/_GatorFiles/_2018-fall-web2/_project1/project1-adv-web1/sass/main.scss */
 .menu a {
-  text-decoration: none;
-  color: #666;
+  color: #aa4f30;
 }
 
-/* line 352, /Users/kristenharlin/Documents/_GatorFiles/_2018-fall-web2/_project1/project1-adv-web1/sass/main.scss */
+/* line 348, /Users/kristenharlin/Documents/_GatorFiles/_2018-fall-web2/_project1/project1-adv-web1/sass/main.scss */
 .menu a:hover {
-  text-decoration: none;
-  color: #666;
+  color: #516a4a;
 }
 
 @media (min-width: 550px) {
-  /* line 359, /Users/kristenharlin/Documents/_GatorFiles/_2018-fall-web2/_project1/project1-adv-web1/sass/main.scss */
+  /* line 354, /Users/kristenharlin/Documents/_GatorFiles/_2018-fall-web2/_project1/project1-adv-web1/sass/main.scss */
   .hamburger, .cross, .menu {
     display: none;
   }

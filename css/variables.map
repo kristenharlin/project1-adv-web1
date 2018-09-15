@@ -5,8 +5,8 @@
 		"../sass/variables.scss"
 	],
 	"sourcesContent": [
-		"$white: #ffffff;\n$orange: #aa4f30;\n$tan: #eae8d3;\n$olive: #516a4a;\n\n$mobile-pad: 15px 5% 15px 5%;\n\n@import url('https://fonts.googleapis.com/css?family=Barlow+Condensed');\n\n@font-face {\n  font-family: 'LeHigh Regular';\n  src: url('../fonts/lehigh-personal-regular.otf');\n}\n\n@font-face {\n  font-family: 'LeHigh Bold';\n  src: url('../fonts/lehigh-personal-bold.otf');\n}\n\n@mixin flex-left {\n  display: flex;\n  flex-direction: column;\n  justify-content: flex-start;\n  align-items: center;\n}\n\n@mixin flex-center {\n  display: flex;\n  flex-direction: column;\n  justify-content: center;\n  align-items: center;\n}\n\n@mixin transition {\n  transition: 1s;\n  -webkit-transition: 1s;\n  -moz-transition: 1s;\n  -o-transition: 1s;\n}\n"
+		"//fonts\n\n@import url('https://fonts.googleapis.com/css?family=Barlow+Condensed');\n\n@font-face {\n  font-family: 'LeHigh Regular';\n  src: url('../fonts/lehigh-personal-regular.otf');\n}\n\n@font-face {\n  font-family: 'LeHigh Bold';\n  src: url('../fonts/lehigh-personal-bold.otf');\n}\n\n$serif: 'LeHigh Regular', serif;\n$serif-bold: 'LeHigh Bold', serif;\n$sans-serif: 'Barlow Condensed', sans-serif;\n\n//colors\n\n$white: #ffffff;\n$orange: #aa4f30;\n$tan: #eae8d3;\n$olive: #516a4a;\n\n// even padding for mobile\n\n$mobile-pad: 15px 5% 15px 5%;\n\n// mixins\n\n@mixin flex-left {\n  display: flex;\n  flex-direction: column;\n  justify-content: flex-start;\n  align-items: center;\n}\n\n@mixin flex-center {\n  display: flex;\n  flex-direction: column;\n  justify-content: center;\n  align-items: center;\n}\n\n@mixin transition {\n  transition: 1s;\n  -webkit-transition: 1s;\n  -moz-transition: 1s;\n  -o-transition: 1s;\n}\n"
 	],
-	"mappings": "AAOA,OAAO,CAAC,+DAAI;AAEZ,UAAU;EACR,WAAW,EAAE,gBAAiB;EAC9B,GAAG,EAAE,2CAAG;;;AAGV,UAAU;EACR,WAAW,EAAE,aAAc;EAC3B,GAAG,EAAE,wCAAG",
+	"mappings": "AAEA,OAAO,CAAC,+DAAI;AAEZ,UAAU;EACR,WAAW,EAAE,gBAAiB;EAC9B,GAAG,EAAE,2CAAG;;;AAGV,UAAU;EACR,WAAW,EAAE,aAAc;EAC3B,GAAG,EAAE,wCAAG",
 	"names": []
 }

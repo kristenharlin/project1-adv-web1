@@ -1,9 +1,4 @@
-$white: #ffffff;
-$orange: #aa4f30;
-$tan: #eae8d3;
-$olive: #516a4a;
-
-$mobile-pad: 15px 5% 15px 5%;
+//fonts
 
 @import url('https://fonts.googleapis.com/css?family=Barlow+Condensed');
 
@@ -16,6 +11,23 @@ $mobile-pad: 15px 5% 15px 5%;
   font-family: 'LeHigh Bold';
   src: url('../fonts/lehigh-personal-bold.otf');
 }
+
+$serif: 'LeHigh Regular', serif;
+$serif-bold: 'LeHigh Bold', serif;
+$sans-serif: 'Barlow Condensed', sans-serif;
+
+//colors
+
+$white: #ffffff;
+$orange: #aa4f30;
+$tan: #eae8d3;
+$olive: #516a4a;
+
+// even padding for mobile
+
+$mobile-pad: 15px 5% 15px 5%;
+
+// mixins
 
 @mixin flex-left {
   display: flex;
