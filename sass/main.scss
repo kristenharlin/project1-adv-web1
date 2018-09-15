@@ -277,6 +277,14 @@ section, footer {
   padding: $mobile-pad;
 }
 
+.footer-contact {
+  @media (min-width: 750px){
+  display: flex;
+  justify-content: space-between;
+  width: 400px;
+  }
+}
+
 // hamburger styling goes here //
 
 .hamburger {

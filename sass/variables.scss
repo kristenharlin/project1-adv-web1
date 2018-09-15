@@ -29,6 +29,8 @@ $mobile-pad: 15px 5% 15px 5%;
 
 // mixins
 
+// centered vertical, left aligned
+
 @mixin flex-left {
   display: flex;
   flex-direction: column;
@@ -36,12 +38,16 @@ $mobile-pad: 15px 5% 15px 5%;
   align-items: center;
 }
 
+// centered totally
+
 @mixin flex-center {
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
 }
+
+// fade on hover transition
 
 @mixin transition {
   transition: 1s;
