@@ -21,16 +21,27 @@
 
 header {
   @include flex-center;
-  padding: $mobile-pad;
+  padding-bottom: 10px;
+
+  @media (min-width: 550px) {
+    padding-top: 10px;
+  }
 
   img{
     width: 70%;
     max-width: 300px;
+    padding-top: 15px;
+    padding-bottom: 15px;
   }
 }
 
 nav {
   background-color: $white;
+  display: none;
+
+  @media (min-width: 550px) {
+    display: block;
+  }
 
   ul {
     list-style-type: none;
@@ -45,6 +56,11 @@ nav {
         color: $olive;
         font-family: 'LeHigh Bold';
         letter-spacing: .05rem;
+
+        &:hover {
+          color: $orange;
+          @include transition;
+        }
       }
     }
   }
@@ -96,6 +112,7 @@ p {
     width: 100px;
     text-align: center;
     margin-top: 10px;
+    @include transition;
     @include flex-center;
   }
 }
@@ -117,6 +134,8 @@ p {
   color: $white;
   text-transform: uppercase;
   padding: 10px;
+  font-size: 1.3rem;
+  @include transition;
 
   &:hover {
     background-color: $orange;
@@ -126,7 +145,6 @@ p {
 h3 {
   @extend .green-btn;
   display: inline-flex;
-  font-size: 1.3rem;
   letter-spacing: .05rem;
 }
 
@@ -267,4 +285,89 @@ footer {
 
 section, footer {
   padding: $mobile-pad;
+}
+
+// hamburger styling goes here //
+
+.hamburger {
+  background: none;
+  position: absolute;
+  top: 0;
+  right: 0;
+  line-height: 45px;
+  padding: 5px 15px 0px 15px;
+  color: #999;
+  border: 0;
+  font-size: 1.4em;
+  font-weight: bold;
+  cursor: pointer;
+  outline: none;
+  z-index: 10000000000000;
+}
+
+.cross {
+  background: none;
+  position: absolute;
+  top: 0px;
+  right: 0;
+  padding: 7px 15px 0px 15px;
+  color: #999;
+  border: 0;
+  font-size: 3em;
+  line-height: 65px;
+  font-weight: bold;
+  cursor: pointer;
+  outline: none;
+  z-index: 10000000000000;
+}
+
+.menu {
+  z-index: 1000000;
+  font-weight: bold;
+  font-size: 0.8em;
+  width: 100%;
+  background: #f1f1f1;
+  position: relative;
+  text-align: center;
+  font-size: 12px;
+  ul {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    list-style-image: none;
+  }
+  li {
+    display: block;
+    padding: 15px 0 15px 0;
+    border-bottom: #dddddd 1px solid;
+    &:hover {
+      display: block;
+      background: #ffffff;
+      padding: 15px 0 15px 0;
+      border-bottom: #dddddd 1px solid;
+    }
+  }
+  ul li a {
+    text-decoration: none;
+    margin: 0px;
+    color: #666;
+    &:hover {
+      color: #666;
+      text-decoration: none;
+    }
+  }
+  a {
+    text-decoration: none;
+    color: #666;
+    &:hover {
+      text-decoration: none;
+      color: #666;
+    }
+  }
+}
+
+.hamburger, .cross, .menu {
+  @media (min-width: 550px) {
+    display: none;
+  }
 }
